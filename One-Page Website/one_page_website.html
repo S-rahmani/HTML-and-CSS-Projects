@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url('back.jpg'); ">
+<html lang="en" style="background-image: img/back.jpg;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Cities Around the World</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
 </head>
 <body>
 <center>
@@ -13,13 +19,52 @@
     </header>
     
     <section id="pictures">
+        <div class="row">
+        <figure class="figure">
+            <img src="img/PIC1.jpg" class="figure-img img-fluid col-md-3 rounded" alt="...">
+            <!-- <figcaption class="figure-caption col-md-4">A caption for the above image.</figcaption> -->
+
+            <img src="img/PIC2.jpg" class="figure-img img-fluid col-md-3 rounded" alt="city 2">
+            <!-- <figcaption class="figure-caption col-md-4">A caption for the above image.</figcaption> -->
+
+            <img src="img/PIC3.jpg" class="figure-img img-fluid col-md-3 rounded" alt="city 1">
+            <!-- <figcaption class="figure-caption col-md-4">A caption for the above image.</figcaption> -->
+        </div>
+        </figure>
         <h2>Explore Stunning Cities</h2>
-        <img style=" height: 200px; width: 310px;" src="PIC1.jpg" alt="city 1">
-        <img style=" height: 200px; width: 310px;" src="PIC2.jpg" alt="city 2">
-        <img style=" height: 200px; width: 310px;" src="PIC3.jpg" alt="city 1">
-        <img style=" height: 200px; width: 310px;" src="PIC4.jpg" alt="city 1">
-        <img style=" height: 200px; width: 310px;" src="PIC1.jpg" alt="city 1">
-        <img style=" height: 200px; width: 310px;" src="PIC4.jpg" alt="city 1">
+        <!-- <img style=" height: 200px; width: 310px;" src="img/PIC1.jpg" alt="city 1"> -->
+        <!-- <img style=" height: 200px; width: 310px;" src="img/PIC2.jpg" alt="city 2"> -->
+        <!-- <img style=" height: 200px; width: 310px;" src="img/PIC3.jpg" alt="city 1"> -->
+        <div class="row card-group">
+            <div class="card col-md-4 row-cols-1" style="width: 18rem;">
+              <img class="card-img-top" src="img/PIC5.jpg" alt="city 1">
+              <div class="card-body">
+                <h5 class="card-title">DUBAI</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="card col-md-4 row-cols-1" style="width: 18rem;">
+              <img class="card-img-top" src="img/PIC4.jpg" alt="city 1">
+              <div class="card-body">
+                <h5 class="card-title">PARIS</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="card col-md-4 row-cols-1" style="width: 18rem;">
+              <img class="card-img-top" src="img/PIC2.jpg" alt="city 1">
+              <div class="card-body">
+                <h5 class="card-title">SAINGAPORE</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+        <!-- <img style=" height: 200px; width: 310px;" src="img/PIC1.jpg" alt="city 1">
+        <img style=" height: 200px; width: 310px;" src="img/PIC4.jpg" alt="city 1"> -->
 
         <!-- Add more images here -->
     </section>
