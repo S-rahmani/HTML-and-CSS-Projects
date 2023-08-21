@@ -30,4 +30,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 - [Susan Rahmani](https://github.com/S-rahmani)
-    
